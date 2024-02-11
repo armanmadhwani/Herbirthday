@@ -1,0 +1,489 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>....</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="./style/style.css"> 
+  <link rel < head> 
+ <style type="text/css" id="dcoder_stylesheet">hhtml {
+    max-width: 720px;
+}
+
+body {
+    background: url('../images/love.jpg');
+    background-position: 0px 0px;
+
+    /* Animation after here */
+    
+    animation-name: background;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.heart1 {
+    height: 650px;
+    width: 400px;
+    background-color: #ff80d5;
+    border-radius: 250px 250px 0px 0px;
+    transform: rotate(45deg);
+    margin-left: 27em;
+    margin-right: 1.5em;
+    position: relative;
+    top: 25em;
+    z-index: -1;
+    box-shadow: 20px 20px 0px #ffccf2;
+    
+    /* Animation after here */
+
+    animation-name: heart1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    
+}
+
+.beat1 {
+    height: 650px;
+    width: 400px;
+    background-color: #ff80d5;
+    margin-right: 1.5em;
+    border-radius: 250px 250px 0px 0px;
+    transform: rotate(45deg);
+    margin-left: 27em;
+    position: relative;
+    top: -56em;
+    z-index: -1;
+    box-shadow: 20px 20px 0px #ffccf2;
+
+    /* Animation after here */
+    
+    animation-name: beat1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.heart2 {
+    height: 650px;
+    width: 400px;
+    margin-right: 1.5em;
+    background-color: #ffccf2;
+    border-radius: 0px 0px 250px 250px;
+    transform: rotate(135deg);
+    margin-left: 21em;
+    z-index: -2;
+    top: -15.3em;
+    left: -4.7em;
+    position: relative;
+    box-shadow: 20px 20px 0px #ff80d5;
+    
+    /* Animation after here */
+
+    animation-name: heart2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    
+}
+
+.beat2 {
+    height: 650px;
+    width: 400px;
+    background-color: #ffccf2;
+    border-radius: 0px 0px 250px 250px;
+    transform: rotate(135deg);
+    margin-left: 3em;
+    margin-right: 1.5em;
+    z-index: -2;
+    top: -96.5em;
+    left: 13em;
+    position: relative;
+    box-shadow: 20px 20px 0px #ff80d5;
+
+    /* Animation after here */
+    
+    animation-name: beat2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.love {
+    position: absolute;
+    text-align: center;
+    left: 2.2em;
+    top: 3.2em;
+    margin-right: 1.5em;
+    font-size: 9em;
+    font-family: 'Anton', sans-serif;
+    color: #ff33cc;
+    text-shadow: 2px 2px black;
+
+    /* Animation after here */
+
+    animation-name: love;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    
+}
+
+.Melissa {
+    color: #9900cc;
+    z-index: 2;
+    position: relative;
+    top: -0.7em;
+}
+
+.touchme {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 3em;
+    top: -15em;
+    margin-right: 1.5em;
+    font-size: 5em;
+    color: blue;
+    text-shadow: 2px 2px #333333;
+    max-width: 100%;
+    
+    /* Animation after here */
+
+    animation-name: touch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+a:link {
+    color: #ff33cc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff33cc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+/* KEYFRAMES AREA */
+
+@keyframes background {
+    0% {
+  background-position: 0px 0px;
+    }
+
+    100% {
+  background-position: 10000px 10000px;
+    }
+}
+
+@keyframes heart1 {
+    0% {
+  opacity: 0;
+  margin-left: 0em;
+    }
+    100% {
+  opacity: 1;
+  margin-left: 27em;
+    }
+}
+
+@keyframes heart2 {
+    0% {
+  opacity: 0;
+  left: 10em;
+
+    }
+    100% {
+  opacity: 1;
+  left: -5em;
+  
+    } 
+}
+
+@keyframes beat1 {
+    0% {
+  transform: scale(1) rotate(45deg);
+  opacity: 0;
+    }
+    30% {
+  transform: scale(1) rotate(45deg);
+  opacity: 0;
+  }
+    60% {
+  transform: scale(1) rotate(45deg);
+  opacity: 0;
+    }
+    80% {
+  transform: scale(1.1) rotate(45deg);
+  opacity: 1;
+    }
+    100% {
+  transform: scale(1) rotate(45deg);
+  opacity: 1;
+    }
+}
+@keyframes beat2 {
+    0% {
+  transform: scale(1) rotate(135deg);
+  opacity: 0;
+    }
+    30% {
+  transform: scale(1) rotate(135deg);
+  opacity: 0;
+  }
+    60% {
+  transform: scale(1) rotate(135deg);
+  opacity: 0;
+    }
+    80% {
+  transform: scale(1.1) rotate(135deg);
+  opacity: 1;
+    }
+    100% {
+  transform: scale(1) rotate(135deg);
+  opacity: 1;
+    }
+}
+
+@keyframes love {
+    0% {
+  opacity: 0;
+    }
+    100% {
+  opacity: 1;
+    }
+}
+
+@keyframes touch {
+    0% {
+  color: #99ccff;
+  transform: scale(1);
+
+    }
+    25% {
+  color: #ff6666;
+  transform: scale(1.02);
+
+    }
+    50% {
+  color: white;
+  transform: scale(1.1);
+
+    }
+    75% {
+  color: #ffb3ff;
+  transform: scale(1.02);
+
+    }
+    100% {
+  color: #99ccff;
+  transform: scale(1);
+    }
+}
+
+
+body {
+    background: url('../images/love.jpg');
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    color:#ff9999;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 4px 4px #fff2e6;
+    padding: 20px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    background-color:#f2e5d9;
+}
+
+.button:active {
+    background-color: #fff2e6;
+    transform: scale(0.8);
+}
+
+
+section {
+    background-color: #f2e5d9;
+    border-radius: 50px;
+    margin: 2em 2em 2em 2em;
+    box-shadow: 4px 4px #fff2e6;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 7em;
+    font-weight: normal;
+    padding: 1em 0em 0em 1.5em;
+    color: #ff9999;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em;
+    color: black;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+.music {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff9999;
+    margin: 5em;
+}
+
+audio {
+   display: block;
+   width: 700px;
+   padding-top:1em;
+   padding-left: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    font-family: monospace;
+    text-align: center;
+    padding: 2em;
+}
+
+.gallery {
+    /* background: url("../images/1.png") no-repeat; */
+    background-size: 100% 100%;
+    width: 600px;
+    height: 400px;
+    margin: 30px 20px 200px 150px;
+    
+    /* Animation below */
+    
+    animation-name: gallery;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+
+.happy {
+    text-align: center;
+    padding-left: 2px;
+    margin-top: -80px;
+}
+
+
+/* KEYFRAMES AFTER HERE */
+
+
+@keyframes gallery {
+    0% {
+        background: url("../images/1.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+        
+    }
+    15% {
+        background: url("../images/2.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    25% {
+        background: url("../images/3.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    35% {
+        background: url("../images/4.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    45% {
+        background: url("../images/5.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    55% {
+        background: url("../images/6.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    65% {
+        background: url("../images/7.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    75% {
+        background: url("../images/8.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    85% {
+        background: url("../images/9.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    100% {
+        background: url("../images/1.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+}
+
+
+    
+/* END OF THE KEYFRAMES */</style></head><body> 
+   <h1 style="font-size=100">For you <i style="color:#7B0323">MITTHU!</i></h1>
+  <section> 
+   <h1 class="love"> <a href="./te-amo.html"> HAPPY BIRTHDAY!<br> <span class="Melissa">MITTHU</span> </a> </h1> 
+  </section> 
+  <div class="heart1"></div> 
+  <div class="heart2"></div> 
+  <div class="beat1"></div> 
+  <div class="beat2"></div> 
+  <section>
+   <h2 class="touchme">You are the best</h2>
+  </section> 
+
+  <section> 
+   <h1 class="message">For you <span>girl!</span></h1> 
+   <div class="music"> 
+    <audio controls> 
+     <source src="pehlebhimai.mp3" type="audio/mpeg"> 
+    </audio> 
+    <h2>Pehle bhi me!<br></h2> 
+   </div> 
+   <p> Greetings MITTHU,<br> As the 13th of February approaches, I can't help but feel a rush of excitement (and maybe a few butterflies ) knowing it's your birthday! This day marks not just another year passing, but another year of incredible memories, shared laughter, and unwavering support we've built together.
+Thinking back on our journey, I'm overwhelmed with gratitude for having you by my side. You're the most sensitive person i have met so far(who cries on every single shit). The way you always brighten up the room, offer a shoulder to cry on, make me laugh until my sides hurt truly makes a difference in my life.
+Whether it's an In-person meet, or simply a phone call, every moment spent with you is a treasure. You have a unique ability to fall unconcious at anytime and anywhere.
+On this special day, I want to shower you with all the love and joy you deserve. May your birthday be filled with joy,happiness and ofcourse,surprises and suspences as well. Remember, you are loved, appreciated, and cherished beyond words.
+Here's to many more years of adventures, and creating memories that will forever hold a special place in our hearts. Happy birthday,Mitthu! 
+
+</p> 
+   <h2 class="our">Nuestra Galeria:</h2> 
+   <div class="gallery"></div> 
+   <h1 class="happy">Feliz Cumpleaños</h1> 
+  </section> 
+ 
+</body></html>
