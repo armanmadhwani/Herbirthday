@@ -76,7 +76,7 @@ h2 {
     /* background: url("../images/1.png") no-repeat; */
     background-size: 100% 100%;
     width: 600px;
-    height: 600px;
+    height: 700px;
     margin: 30px 20px 200px 150px;
     
     /* Animation below */
@@ -102,38 +102,38 @@ h2 {
         background: url("1.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 600px;
+        height: 700px;
         
     }
     20% {
         background: url("2.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 600px;
+        height: 700px;
     }
     40% {
         background: url("3.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 400px;
+        height: 700px;
     }
     60% {
         background: url("4.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 600px;
+        height: 700px;
     }
     80% {
         background: url("5.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 609px;
+        height: 700px;
     }
     
     100% {
         background: url("1.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
-        height: 600px;
+        height: 700px;
     }
 }
