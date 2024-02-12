@@ -3,7 +3,7 @@ hhtml {
 }
 
 body {
-    background: url('../images/love.jpg');
+    background: url('love.jpg');
     background-position: 0px 0px;
 
     /* Animation after here */
