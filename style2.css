@@ -99,20 +99,20 @@ h2 {
 
 @keyframes gallery {
     0% {
-        background: url("1.png") no-repeat;
+        background: url("3.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
         
     }
     20% {
-        background: url("2.jpg") no-repeat;
+        background: url("1.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
     }
     40% {
-        background: url("3.jpg") no-repeat;
+        background: url("2.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
@@ -124,14 +124,14 @@ h2 {
         height: 700px;
     }
     80% {
-        background: url("5.png") no-repeat;
+        background: url("5.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
     }
     
     100% {
-        background: url("1.png") no-repeat;
+        background: url("3.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
