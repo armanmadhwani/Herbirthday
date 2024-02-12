@@ -99,14 +99,14 @@ h2 {
 
 @keyframes gallery {
     0% {
-        background: url("3.png") no-repeat;
+        background: url("3.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
         
     }
     20% {
-        background: url("1.jpg") no-repeat;
+        background: url("1.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
@@ -131,7 +131,7 @@ h2 {
     }
     
     100% {
-        background: url("3.png") no-repeat;
+        background: url("3.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 700px;
