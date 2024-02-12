@@ -99,62 +99,39 @@ h2 {
 
 @keyframes gallery {
     0% {
-        background: url("../images/1.png") no-repeat;
+        background: url("1.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
         
     }
-    15% {
-        background: url("../images/2.jpg") no-repeat;
+    20% {
+        background: url("2.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
     }
-    25% {
-        background: url("../images/3.jpg") no-repeat;
+    40% {
+        background: url("3.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
     }
-    35% {
-        background: url("../images/4.jpg") no-repeat;
+    60% {
+        background: url("4.jpg") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
     }
-    45% {
-        background: url("../images/5.png") no-repeat;
+    80% {
+        background: url("5.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
     }
-    55% {
-        background: url("../images/6.png") no-repeat;
-        background-size: 100% 100%;
-        width: 600px;
-        height: 400px;
-    }
-    65% {
-        background: url("../images/7.png") no-repeat;
-        background-size: 100% 100%;
-        width: 600px;
-        height: 400px;
-    }
-    75% {
-        background: url("../images/8.png") no-repeat;
-        background-size: 100% 100%;
-        width: 600px;
-        height: 400px;
-    }
-    85% {
-        background: url("../images/9.png") no-repeat;
-        background-size: 100% 100%;
-        width: 600px;
-        height: 400px;
-    }
+    
     100% {
-        background: url("../images/1.png") no-repeat;
+        background: url("1.png") no-repeat;
         background-size: 100% 100%;
         width: 600px;
         height: 400px;
